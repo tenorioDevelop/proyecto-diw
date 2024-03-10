@@ -2,6 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../src/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+html{
+    font-family: "Montserrat";
+}
+
 #header{
     background-image: url("../../src/img/header.png");
+    background-position: center;
+}
+
+#contenedorForm{
+    position: relative;
+}
+
+#contenedorForm::after{
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: -100px;
+    margin-left: -100px;
+    content: " ";
+    position: absolute;
+    background-color: #496F5D;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+#contenedorForm::before{
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    margin-bottom: -70px;
+    margin-right: -120px;
+    content: " ";
+    position: absolute;
+    background-color: #496F5D;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+#tabla tr:nth-child(even){
+    background-color: #f3f1f1;
 }
