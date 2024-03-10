@@ -646,10 +646,6 @@ video {
   margin-top: 0.25rem;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
 .block {
   display: block;
 }
@@ -724,10 +720,6 @@ video {
 
 .grid-flow-col {
   grid-auto-flow: column;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
@@ -935,6 +927,15 @@ video {
 
 html{
   font-family: "Montserrat";
+}
+
+.icono{
+  width: 20px;
+  display: inline;
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 10px;
+  opacity: 0.5;
 }
 
 #header{
