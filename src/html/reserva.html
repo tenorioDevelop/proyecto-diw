@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../build/css/styles.css">
+    <title>Reserva - Ultimate Pistas</title>
+</head>
+
+<body>
+    <div class="h-full min-h-screen relative" id="container">
+        <!-- Nav -->
+        <nav class="px-2 md:px-40 bg-verde h-20 grid grid-cols-3 items-center">
+            <picture class="col-start-2">
+                <a href="index.html"><img class="mx-auto" src="../img/google.png" alt=""></a>
+            </picture>
+            <nav class="flex justify-end text-white">
+                <a href="#">Reserva pista</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </nav>
+        <!-- Principal -->
+        <div class="h-full flex flex-col gap-5 py-2 px-2 md:px-40">
+            <!-- Breadcrumbs -->
+            <div>
+                <a href="index.html">Inicio</a> > <a href="#" class="font-bold">Alquilar pista</a>
+            </div>
+            <!-- Titulo -->
+            <div>
+                <h1 class="text-2xl text-carbon font-bold">Alquila tu pista</h1>
+                <h3 class="text-lg">Busca la mejor pista adecuada para ti</h3>
+            </div>
+            <!-- Form -->
+            <form action="">
+                <div class="grid grid-cols-3 gap-1">
+                    <select name="" id="" class="p-2 bg-gris rounded text-black">
+                        <option value="">Cadiz</option>
+                        <option value="">Sevilla</option>
+                    </select>
+                    <select name="" id="" class="p-2 bg-gris rounded text-black">
+                        <option value="">Futsal</option>
+                        <option value="">Futbol 7</option>
+                        <option value="">Futbol 11</option>
+                    </select>
+                    <select name="" id="" class="p-2 bg-gris rounded text-black">
+                        <option value="">Visa</option>
+                        <option value="">Mastercard</option>
+                    </select>
+                    <input type="number" name="" class="p-2 bg-gris rounded text-black col-start-1 col-end-3" placeholder="Numero tarjeta" id="">
+                    <input type="number" name="" class="p-2 bg-gris rounded text-black " placeholder="CVV" id="">
+                    <label for="" class="col-start-1 col-end-4">
+                        <input type="checkbox" name="" id=""> Acepto las condiciones de privacidad
+                    </label>
+                </div>
+            </form>
+            <!-- Tabla -->
+            <div>
+                <table class="table-auto w-full">
+                    <tr class="bg-gris">
+                        <td>Localizacion</td>
+                        <td>Horas disponibles</td>
+                        <td>Precio x Hora</td>
+                    </tr>
+                    <tr class="">
+                        <td>dsa</td>
+                        <td>dsa</td>
+                        <td>dsa</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="footer" class="bg-verde py-3 flex flex-col justify-center items-center gap-5 absolute bottom-0 w-full">
+            <ul id="iconos" class="flex gap-5">
+                <li><img class="w-7" src="../img/whatsapp-white-icon.png" alt=""></li>
+                <li><img class="w-7" src="../img/instagram-white-icon.png" alt=""></li>
+                <li><img class="w-7" src="../img/facebook-app-round-white-icon.png" alt=""></li>
+            </ul>
+            <p class="text-white">
+                <span class="font-bold">Copyright © UltimatePistas</span> derechos reservados 2023
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

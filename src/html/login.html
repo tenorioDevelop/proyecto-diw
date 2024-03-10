@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../build/css/styles.css">
+    <title>Login - Ultimate Pistas</title>
+</head>
+
+<body>
+    <div class="h-screen relative" id="container">
+        <div class="h-full flex px-2">
+            <main id="login" class="m-auto max-w-[500px] w-full border-2 border-gris py-3 rounded-[100px]">
+                <div class="flex flex-col gap-2 w-2/3 m-auto">
+                    <section id="nav" class="grid grid-flow-col w-2/3 m-auto border-gris border-[1px] rounded-full overflow-hidden">
+                        <a href="#" class="block bg-verde pl-2 rounded-full p-2 text-white" id="iniciarSesion"><span>Iniciar Sesion</span></a>
+                        <a href="registro.html" class="block p-2 text-verde" id="registrarse"><span>Registrarse</span></a>
+                    </section>
+                    <figure class="">
+                        <img class="m-auto object-cover w-[30px] rounded-full" src="../img/user.png" alt="">
+                    </figure>
+                    <form action="" class="flex flex-col gap-2">
+                        <div>
+                            <input type="text" placeholder="usuario" name="usuario" id="" class="w-full px-4 py-1 border-2 border-gris rounded-full" >
+                            <input type="password" placeholder="contrasenia" name="contrasenia" id="" class="w-full px-4  py-1 border-2 border-gris rounded-full mt-1" >
+                        </div>
+                        <label >
+                            <input type="checkbox" name="" id="" class="mr-2">Recordar en este dispositivo
+                        </label>
+                        <hr class="w-full h-[2px] my-4 border-0 rounded bg-black">
+                        <figure class="w-6 m-auto"><img src="../img/google.png" alt=""></figure>
+                        <a href="index.html" class="m-auto bg-verde-lima px-5 py-3 rounded-full">Iniciar sesion</a>
+                    </form>
+                </div>
+            </main>
+        </div>
+        <div id="footer" class="bg-verde py-3 flex flex-col justify-center items-center gap-5 absolute bottom-0 w-full">
+            <ul id="iconos" class="flex gap-5">
+                <li><img class="w-7" src="../img/whatsapp-white-icon.png" alt=""></li>
+                <li><img class="w-7" src="../img/instagram-white-icon.png" alt=""></li>
+                <li><img class="w-7" src="../img/facebook-app-round-white-icon.png" alt=""></li>
+            </ul>
+            <p class="text-white">
+                <span class="font-bold">Copyright © UltimatePistas</span> derechos reservados 2023
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
