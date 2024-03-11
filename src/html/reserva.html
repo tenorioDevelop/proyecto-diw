@@ -14,7 +14,7 @@
         <nav class="px-2 md:px-40 bg-verde h-20 grid grid-cols-3 items-center">
             <picture class="col-start-2">
                 <a href="index.html"><img class="mx-auto object-cover w-[50px]" src="../img/logo.png" alt=""></a>
-                
+
             </picture>
             <nav class="flex justify-end text-white gap-3">
                 <a href="reserva.html">Reserva pista</a>
@@ -48,7 +48,14 @@
                         <option value="">Visa</option>
                         <option value="">Mastercard</option>
                     </select>
-                    <input type="number" name="" class="p-2 bg-gris rounded text-black col-start-1 col-end-3" placeholder="Numero tarjeta" id="">
+                    <div class="flex relative col-start-1 col-end-3 ">
+                        <input type="number" name="" class="p-2 bg-gris rounded text-black flex-1"
+                            placeholder="Numero tarjeta" id="">
+                        <picture class="h-[15px] absolute right-0 top-3"><img src="../img/visa.png" alt=""
+                                class="object-cover block w-full h-full"></picture>
+                        <picture class="h-[15px] absolute right-10 top-3"><img src="../img/Mastercard.png" alt=""
+                                class="object-cover block w-full h-full"></picture>
+                    </div>
                     <input type="number" name="" class="p-2 bg-gris rounded text-black " placeholder="CVV" id="">
                     <label for="" class="col-start-1 col-end-4">
                         <input type="checkbox" name="" id=""> Acepto las condiciones de privacidad
